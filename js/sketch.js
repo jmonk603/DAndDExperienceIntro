@@ -112,13 +112,13 @@ function openLink(){
   if (storyCounter == 3){
     console.log(charcounter)
     if (charcounter == 1){
-      window.location.href = ('https://uk.fender.com/products/player-ii-mustang-bass-pj');
+      window.location.href = ('https://jmonk603.github.io/DAndDExperience/');
     }
     if (charcounter == 2){
-      window.location.href = ('https://www.google.com/search?q=ebay+sony+hi8+handycam&sca_esv=3029ffce05bf8594&sxsrf=ADLYWIIh-mfxs1TnAcyThD1gQqSeykqqFw%3A1733063542604&ei=dnNMZ97FJIOBhbIPpNWAkQo&ved=0ahUKEwje2NHm5IaKAxWDQEEAHaQqIKIQ4dUDCA8&uact=5&oq=ebay+sony+hi8+handycam&gs_lp=Egxnd3Mtd2l6LXNlcnAiFmViYXkgc29ueSBoaTggaGFuZHljYW0yBhAAGAgYHjIGEAAYCBgeMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogRI4OPxAVDK3PEBWN_h8QFwAngBkAEAmAFioAG8AqoBATS4AQPIAQD4AQGYAgWgAusBwgIKEAAYsAMY1gQYR8ICChAjGIAEGCcYigXCAgQQABgewgIIEAAYBxgIGB6YAwCIBgGQBgiSBwE1oAfGGA&sclient=gws-wiz-serp');
+      window.location.href = ('https://jmonk603.github.io/DAndDExperienceP1Wiz/');
     }
     if (charcounter == 3){
-      window.location.href = ('https://www2.hm.com/en_gb/productpage.1273693002.html');
+      window.location.href = ('https://jmonk603.github.io/DAndDExperienceP1Rng/');
     }
   }
 }
