@@ -11,16 +11,16 @@ var char3
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  bg = loadImage('js/paperTexture.jpg');
-  sword = loadImage('js/sword.png');
-  storytext = loadStrings('js/storyoptions.txt');
-  titletext = loadStrings('js/Titles.txt');
-  choicestext = loadStrings('js/multiplechoices.txt');
-  cor1 = loadImage('js/corner1.png');
-  cor2 = loadImage('js/corner2.png');
-  char1 = loadImage('js/bilston.png');
-  char2 = loadImage('js/emlyn.png');
-  char3 = loadImage('js/dammon.png');
+  bg = loadImage('paperTexture.jpg');
+  sword = loadImage('sword.png');
+  storytext = loadStrings('storyoptions.txt');
+  titletext = loadStrings('Titles.txt');
+  choicestext = loadStrings('multiplechoices.txt');
+  cor1 = loadImage('corner1.png');
+  cor2 = loadImage('corner2.png');
+  char1 = loadImage('bilston.png');
+  char2 = loadImage('emlyn.png');
+  char3 = loadImage('dammon.png');
 }
 
 function draw() {
@@ -72,25 +72,25 @@ function draw() {
     
     //image(sword,(windowWidth/2)-135,250,250,350)
     
-    image(char1, (windowWidth/3)-130,200,200,260)
-    image(char2, (windowWidth/2)-130,200,200,260)
-    image(char3, (windowWidth/3)+150,200,200,260)
+    image(char1, (windowWidth/5)-110,200,200,260)
+    image(char2, (windowWidth/2)-110,200,200,260)
+    image(char3, (windowWidth/1.25)-120,200,200,260)
   }
   
 }
 
 function touchEnded(){
   if (storyCounter == 2){
-    if (mouseX < windowWidth/2.66){
+    if (mouseX < windowWidth/5){
       charcounter = 1
       storyCounter = 3;
     }
-    else if (mouseX > windowWidth/1.78){
+    else if (mouseX > (windowWidth/1.25)-100){
       charcounter = 3
       storyCounter = 3;
     }
-    else if (mouseX < windowWidth/1.78){
-      if (mouseX > windowWidth/2.66){
+    else if (mouseX < (windowWidth/1.25)-100){
+      if (mouseX > windowWidth/5){
         charcounter = 2
         storyCounter = 3;
       }
